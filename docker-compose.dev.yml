@@ -1,0 +1,6 @@
+version: '3'
+
+services:
+  katholisch-api:
+    container_name: katholisch-api-dev
+    command: yarn dev -L
